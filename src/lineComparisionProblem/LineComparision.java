@@ -11,6 +11,6 @@ public class LineComparision {
         LineComparision linecomparision = new LineComparision();
          Double firstLine = linecomparision.Distance(2, 3, 4, 5);
          Double secondLine = linecomparision.Distance(1, 2, 1, 3);
-        System.out.println("lineOne and lineTwo are equal.True or False : " +firstLine.equals(secondLine));
+        System.out.println("firstLine and secondLine are equal are not: " +firstLine.equals(secondLine));
     }
 }
