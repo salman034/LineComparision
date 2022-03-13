@@ -9,7 +9,8 @@ public class LineComparision {
 
     public static void main(String[] args) {
         LineComparision linecomparision = new LineComparision();
-        double value = linecomparision.Distance(2, 3, 4, 5);
-        System.out.println("The distance between two points is : " +value);
+         Double firstLine = linecomparision.Distance(2, 3, 4, 5);
+         Double secondLine = linecomparision.Distance(1, 2, 1, 3);
+        System.out.println("lineOne and lineTwo are equal.True or False : " +firstLine.equals(secondLine));
     }
 }
