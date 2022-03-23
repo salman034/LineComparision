@@ -12,10 +12,11 @@ public class LineComparision {
          Double firstLine = linecomparision.Distance(2, 3, 4, 5);
          Double secondLine = linecomparision.Distance(1, 2, 1, 3);
 
-        if (Double.compare(firstLine, secondLine) == 0)
+        if (Double.compare(firstLine, secondLine) == 0) {
             System.out.println("Both the lines are Equal");
-        else if (Double.compare(firstLine, secondLine) < 0)
-            System.out.println("secondLine is greater than firstLine");
+        }    
+            else if (Double.compare(firstLine, secondLine) < 0)
+                System.out.println("secondLine is greater than firstLine");
         else
             System.out.println("firstLine is Greater than secondLine");
     }
